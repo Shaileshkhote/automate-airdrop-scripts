@@ -22,7 +22,7 @@ Scripts requires [Node.js](https://nodejs.org/) to run
 Install the dependencies and devDependencies and start the server.
 
 ```sh
-git clone https://github.com/Shaileshkhote/automate-airdrop-scripts.git
+git clone https://github.com/Shaileshkhote/automate-tx-scripts.git
 cd automate-tx-scripts
 pnpm install
 ```
