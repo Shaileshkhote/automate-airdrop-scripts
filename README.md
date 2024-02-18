@@ -16,6 +16,11 @@
 - Supported Tokens : USDC, USDT, ETH
 - Supports Amount in Token for Swaps
 
+#### LIFI on ZkSync
+- Supports LIFI Onchain Swaps Using LIFI Daimond Contracts
+- Supported Tokens : USDC, USDT, ETH
+- Supports Amount in Token for Swaps
+
 ## Installation
 
 Scripts requires [Node.js](https://nodejs.org/) to run
@@ -63,7 +68,7 @@ Amount to swap in tokens 🚀2
 
 Example Inputs - LiFi - ZkSync
 ```bash
-//Before running this make sure you have approvals on 1inch
+//Before running this make sure you have approvals on LIFI Diamond Contracts, visit lifi protocol
 
 Supported Tokens : USDC,USDT,ETH
 Please provide token to swap from 🚀USDC
