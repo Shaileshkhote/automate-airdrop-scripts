@@ -12,6 +12,7 @@
     "zksync": "ts-node src/zksync.ts",
     "scroll": "ts-node src/scroll.ts",
     "layerzero": "ts-node src/layerzero.ts ",
+    "lzmerkly": "ts-node src/lzmerkly.ts ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
