@@ -19,7 +19,6 @@
 ## Installation
 
 Scripts requires [Node.js](https://nodejs.org/) to run
-
 Install the dependencies and devDependencies and start the server.
 
 ```sh
@@ -31,7 +30,9 @@ Env Variables :
 ```js
 //1inch Api Key 
 API_KEY:<Value>
+```
 
+```js
 //PrivateKey
 WALLET_KEY:<Value>
 ```
@@ -45,7 +46,22 @@ Run Scripts - LayerZero
 pnpm layerzero
 ```
 
+Run Scripts - LiFi on ZkSync (On Shot Two Birds)
+```
+pnpm lifi-zksync
+```
+
 Example Inputs - ZkSync
+```bash
+//Before running this make sure you have approvals on 1inch
+
+Supported Tokens : USDC,USDT,ETH
+Please provide token to swap from 🚀USDC
+Please provide token to swap to 🚀ETH
+Amount to swap in tokens 🚀2
+```
+
+Example Inputs - LiFi - ZkSync
 ```bash
 //Before running this make sure you have approvals on 1inch
 

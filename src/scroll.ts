@@ -1,4 +1,4 @@
-import getQuote from './utils/swap'
+import getQuote from './utils/1inch'
 import { ChainId } from './configs/ChainIds'
 import 'dotenv/config'
 import { viemClient } from './configs/viemClient'
@@ -12,7 +12,7 @@ async function main() {
     console.log('🚀 ~ Tx Count:', i)
     const response = await getQuote(ChainId.SCROLL, client.account.address, 'USDC', 'USDT', 10)
     //@ts-ignore
-    const txHash = await sendTx(client, response.tx,0)
+    const txHash = await sendTx(client, response.tx, 0)
     txHashes.push(txHash)
   }
   console.log('All Tx Hashes', txHashes)

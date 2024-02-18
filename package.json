@@ -10,6 +10,7 @@
     "prettier-format": "prettier --config .prettierrc.json src/**/*.ts --write",
     "start": "node dist/index.js",
     "zksync": "ts-node src/zksync.ts",
+    "lifi-zksync": "ts-node src/lifi.ts",
     "scroll": "ts-node src/scroll.ts",
     "layerzero": "ts-node src/layerzero.ts ",
     "test": "echo \"Error: no test specified\" && exit 1"
