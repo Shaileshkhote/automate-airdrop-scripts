@@ -30,13 +30,6 @@ async function getEstimatedFees(
     functionName: 'estimateSendFee',
     args: [dstId, toAddress, amount, useZro, adapterParams],
   })
-  console.log(`🚀 ~ file: lz.ts:33 ~ data:`, data, {
-    dstId,
-    toAddress,
-    amount,
-    useZro,
-    adapterParams,
-  })
 
   return data
 }
@@ -65,7 +58,6 @@ async function sendMerkTokens(
     to: layerZeroContracts['MERKLY'][ChainId.ZKSYNC],
     data,
   }
-  // console.log(`🚀 ~ file: lz.ts:60 ~ txData:`, txData)
 
   const hash = await sendTx(client, txData, BigInt(value))
   return hash
