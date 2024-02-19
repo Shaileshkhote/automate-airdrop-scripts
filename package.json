@@ -13,6 +13,7 @@
     "lifi-zksync": "ts-node src/lifi.ts",
     "scroll": "ts-node src/scroll.ts",
     "layerzero": "ts-node src/layerzero.ts ",
+    "lzmerkly": "ts-node src/lzmerkly.ts ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

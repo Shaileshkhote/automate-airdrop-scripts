@@ -2,8 +2,8 @@ import { ChainId } from './ChainIds'
 
 const tokenContracts = {
   ROUTER: {
-    [ChainId.ZKSYNC]: "0x6e2b76966cbd9cf4cc2fa0d76d24d5241e0abc2f",
-    [ChainId.SCROLL]: "",
+    [ChainId.ZKSYNC]: '0x6e2b76966cbd9cf4cc2fa0d76d24d5241e0abc2f',
+    [ChainId.SCROLL]: '',
   },
   USDT: {
     [ChainId.ZKSYNC]: {
@@ -38,9 +38,12 @@ const tokenContracts = {
 }
 
 export const layerZeroContracts = {
-    GASZIP: {
-      [ChainId.ARBITRUM]: "0x26DA582889f59EaaE9dA1f063bE0140CD93E6a4f",
-      [ChainId.SCROLL]: "",
-    },
-  }
+  GASZIP: {
+    [ChainId.ARBITRUM]: '0x26DA582889f59EaaE9dA1f063bE0140CD93E6a4f',
+    [ChainId.SCROLL]: '',
+  },
+  MERKLY: {
+    [ChainId.ZKSYNC]: '0x54De43B6bA21A5553697a2b78338e046dD7E0278',
+  },
+}
 export default tokenContracts
